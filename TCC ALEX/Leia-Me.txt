@@ -1,0 +1,24 @@
+Usuario: Alex
+Senha: 123
+Administrador
+
+Usuário Comum
+Roberto
+123
+
+
+Para gerar o Relatório, pode dar erro em alguns caminhos, caso for testar com o Jar, precisa jogar na raiz de alguma unidade de disco e Mencioná-la no formulário Relatório.
+Ele salva como D:/PizzaSetor
+
+Não deu tempo de fazer o Desconectar e o Formulário de COnfiguração, porém logo eu farei.
+
+Gostaria muito de receber uma nota final, e também quais melhorias precisam ser feitas.
+
+Peço que avalie como professor, pois serei sempre o seu aluno.
+
+Muito obrigado por dar início a essa nova caminhada na minha vida. Te admiro muito como mestre!
+
+Obrigado, e bom divertimento!
+
+Alex Santos
+

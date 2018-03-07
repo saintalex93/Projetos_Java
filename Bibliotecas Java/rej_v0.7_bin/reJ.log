@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-06-29T15:07:28</date>
+  <millis>1435601248689</millis>
+  <sequence>0</sequence>
+  <logger>net.sf.rej.gui.MainWindow</logger>
+  <level>WARNING</level>
+  <class>net.sf.rej.gui.MainWindow</class>
+  <method>createDebugTab</method>
+  <thread>13</thread>
+  <message>Class com.sun.jdi.Bootstrap not found. Probably due to the fact that JDI library (tools.jar) is not on classpath. In order to have debugging support, please correct this and restart reJ.</message>
+</record>
+</log>

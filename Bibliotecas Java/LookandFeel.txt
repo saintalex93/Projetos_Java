@@ -1,0 +1,57 @@
+Acryl
+
+try {
+javax.swing.UIManager.setLookAndFeel("com.jtattoo.plaf.acryl.AcrylLookAndFeel");
+} catch (Exception ex) {
+ex.printStackTrace();
+}
+
+
+Aero
+
+
+try {
+javax.swing.UIManager.setLookAndFeel("com.jtattoo.plaf.aero.AeroLookAndFeel");
+} catch (Exception ex) {
+ex.printStackTrace();
+}
+
+
+
+Bernestein
+
+
+try {
+javax.swing.UIManager.setLookAndFeel("com.jtattoo.plaf.bernstein.BernsteinLookAndFeel");
+} catch (Exception ex) {
+ex.printStackTrace();
+}
+
+
+Hi Fi
+
+try {
+javax.swing.UIManager.setLookAndFeel("com.jtattoo.plaf.hifi.HiFiLookAndFeel");
+} catch (Exception ex) {
+ex.printStackTrace();
+}
+
+
+
+Mc Win
+
+try {
+javax.swing.UIManager.setLookAndFeel("com.jtattoo.plaf.mcwin.McWinLookAndFeel");
+} catch (Exception ex) {
+ex.printStackTrace();
+}
+
+
+Smart
+
+
+try {
+javax.swing.UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
+} catch (Exception ex) {
+ex.printStackTrace();
+}

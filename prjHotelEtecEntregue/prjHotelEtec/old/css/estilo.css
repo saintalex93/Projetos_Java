@@ -1,0 +1,1728 @@
+/*******************************************************************
+
+              GALERIAS
+
+********************************************************************/
+
+
+.galeriaFoto{
+	width: 20%;
+	margin: 2.5%;
+	float: left;
+}
+
+.galeriaFoto img {
+	width: 100%;
+    border: 1px solid #233046;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+
+.galeriaFoto img:hover{
+	opacity: 0.8;
+}
+    #modal {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    display: none;
+    z-index: 100;
+
+}
+
+#box{
+    width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center center;
+    }
+
+
+
+.rightArrow h1, .leftArrow h1{
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+.rightArrow h1:hover, .leftArrow h1:hover{
+    transition: 1s;
+    font-size: 105px;
+    color: #233046;
+    text-shadow: 2px 0px 1px #fff, -2px 0px 1px #fff, 0px 2px 1px #fff, 0px -2px 1px #fff;
+}
+
+.rightArrow{
+
+    float: right;
+}
+
+.leftArrow, .rightArrow{
+
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.close{
+
+    text-align: right;
+}
+
+.close a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    height: 30px;
+    font-weight: bolder;
+    margin-right: 10px;
+    text-shadow: 2px 0px 1px #fff, -2px 0px 1px #fff, 0px 2px 1px #fff, 0px -2px 1px #fff;
+
+}
+
+.close a:hover{
+
+    color: red;
+    transition: all 2s;
+}
+
+
+
+
+
+
+
+
+
+
+/****************AREA TESTES*****************/
+
+
+h1, h2, h3, h4, h5, h6, p, a, label, td, ul, li, tr{
+
+    font-family: 'Overlock', cursive;
+}
+
+
+/*INSERIDO ALEX*/
+
+.load{
+    display: none;
+}
+
+#imgEspecial, #imgStandard, #imgFrigobar{
+    border: 4px solid #233046;
+
+}
+
+
+/*FIM*/
+
+
+
+#bandeiras {
+    width: 100%;
+    float: right;
+    position: absolute;
+    margin-top: 50px;
+}
+
+#bandeiras ul li {
+    list-style: none;
+    display: inline;
+    float: right;
+    padding-left: 5px;
+}
+
+#bandeiras ul li img {
+    width: 30px;
+}
+
+#bandeiraMobi li img {
+    display: none;
+}
+
+
+ #imgStandard{
+    content:url("../img/carStd.JPG");
+    border-radius: 10px;
+    
+}
+
+#imgFrigobar{
+    content:url("../img/carFrigo.JPG");
+    border-radius: 10px;
+
+}
+
+#imgEspecial{
+    content:url("../img/carEspec.JPG");
+    border-radius: 10px;
+}
+
+
+/**************************/
+
+
+
+
+/***********************
+
+   BANNER ONDA DUPLA HOME 
+
+***********************/
+body{
+    /*background: black;*/
+}
+
+.bannerOndaDupla{
+    background-image: url(../img/bannerOndaDuplaN.png);
+    height: 10px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom:10px; 
+    padding-bottom: 100px;
+}
+
+
+#titleOndaDupla {
+    margin-top: -90px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 0px 1px #233046, -2px 0px 1px #233046, 0px 2px 1px #233046, 0px -2px 1px #233046;
+    margin-bottom: 100px;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/***********************
+
+   BANNER ONDA HOME 
+
+***********************/
+
+.bannerOndaHome{
+    background-image: url(../img/bannerOnda2.png);
+    height: 150px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom:20px; 
+}
+
+
+#titleOndaHome {
+    margin-top: -130px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 0px 1px #233046, -2px 0px 1px #233046, 0px 2px 1px #233046, 0px -2px 1px #233046;
+    margin-bottom: 100px;
+}
+
+
+
+/*******************************************************************
+
+              BANNER ONDA PAGINAS 
+
+********************************************************************/
+
+
+
+
+.bannerOnda {
+    background-image: url(../img/bannerOnda2.png);
+    height: 150px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+#titlePages {
+      margin-top: -110px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 0px 1px #233046, -2px 0px 1px #233046, 0px 2px 1px #233046, 0px -2px 1px #233046;
+    margin-bottom: 100px;
+}
+
+.margim {
+    /*padding-top: 80px;*/
+}
+
+/********************************************************************/
+
+
+
+
+
+
+
+
+
+#produtoFinalTexto h1 {
+    color: #fff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 100%;
+}
+
+.main {
+    padding: 10px 0% 50px 0%;
+    width: 100%;
+}
+
+.homeContainer {
+    padding: 0px;
+    width: 100%;
+}
+
+#logoMobile {
+    display: none;
+}
+
+
+/*************************************************************************************************
+
+
+                                         MENU
+
+
+*************************************************************************************************/
+
+#menuE ul li a.menuActive,
+#menuD ul li a.menuActive {
+    color: orange;
+}
+
+#menuD ul li a:hover,
+#menuE ul li a:hover {
+    color: #e8d727;
+}
+
+#botaoMenu {
+    display: none;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #233046;
+    position: fixed;
+    z-index: 99;
+    /*font-size: 200px;*/
+}
+
+#menuE {
+    float: left;
+    width: 45%;
+    text-align: right;
+    padding-top: 30px;
+    /*font-size: 50px;*/
+}
+
+#logo {
+    text-align: center;
+    float: left;
+    width: 10%;
+}
+
+#logo img {
+    width: 80px;
+}
+
+#menuD {
+    float: right;
+    width: 45%;
+    text-align: left;
+    padding-top: 30px;
+}
+
+#menuE ul li,
+#menuD ul li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menuE ul li a,
+#menuD ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 0px 0px #000, -1px 0px 0px #000, 0px 1px 0px #000, 0px -1px 0px #000;
+}
+
+
+/*************************************************************************************************
+
+
+                                         RODAPE
+
+
+*************************************************************************************************/
+
+footer {
+    background: #233046;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 0px 0px #000, -1px 0px 0px #000, 0px 1px 0px #000, 0px -1px 0px #000;
+}
+
+#copy {
+    text-align: center;
+    background: black;
+    color: white;
+    height: 30px;
+}
+
+#copy p {
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+#enderecoRodape {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+
+/*************************************************************************************************
+
+
+                                         HOME
+
+
+*************************************************************************************************/
+
+#bannerHome {
+    background-image: url(../img/bannerHome.jpg);
+    background-attachment: fixed;
+    height: 650px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#logoBannerHome {
+    position: relative;
+    margin-top: 53px;
+    width: 100%;
+    /*height: 100%;*/
+    text-align: center;  
+ 
+}
+#logoBannerHome  img{
+    
+    width: 35%;
+}
+
+
+.textoHome {
+    width: 90%;
+    text-align: center;
+    margin: 10px 5%;
+    font-size: 20px;
+}
+
+.textoHome p {
+    padding-bottom: 50px;
+}
+
+.textoHome p {
+    text-align: justify;
+}
+
+#artigo {
+    text-align: center;
+}
+
+.artigoHome {
+    width: 22%;
+    margin: 1.5%;
+    float: left;
+}
+
+.artigoHome img {
+    width: 100%;
+    border-radius: 10px;
+    border:1px #ccc solid;
+
+}
+
+
+
+ 
+
+.artigoHome img:hover {
+    opacity: 0.8;
+    width: 100%;
+}
+
+.artigoHome a,
+p {
+    padding: 10px 10px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.tablePrices {
+    text-align: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+#bookingPrice {
+    padding: 100px 0;
+    width: 50%;
+    margin: auto auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: #233046;
+    font-weight: bolder;
+}
+
+#bookingPrice tr:first-child {
+    color: #233046;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#bookingPrice td,
+th {
+    border: 1px solid black;
+}
+
+#bookingPrice td a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 0px 0px #000, -1px 0px 0px #000, 0px 1px 0px #000, 0px -1px 0px #000;
+}
+
+#bookingPrice td a:hover {
+    color: #233046;
+    text-shadow: 1px 0px 0px #fff, -1px 0px 0px #fff, 0px 1px 0px #fff, 0px -1px 0px #fff;
+    border-bottom: 2px dashed #233046;
+}
+
+#bookingPrice tr {
+    height: 50px;
+}
+
+#bookingPrice td,
+th {
+    border: 1px solid black;
+}
+
+#bookingPrice tr {
+    height: 50px;
+}
+
+#bookingPrice tr:nth-child(even) {
+    background-color: rgba(110, 162, 193, 0.88);
+}
+
+#bookingPrice tr:nth-child(odd) {
+    background-color: rgba(173, 200, 230, 1);
+}
+
+.h1BookingPrices {
+    font-size: 40px;
+    padding-bottom: 70px;
+    color: #233046;
+    border-top: 4px dashed orange;
+    padding-top: 50px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*************************************************************************************************
+
+
+                                         TÌTULOS
+
+
+*************************************************************************************************/
+
+.title {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 0px 1px #233046, -2px 0px 1px #233046, 0px 2px 1px #233046, 0px -2px 1px #233046;
+    padding-bottom: 50px;
+}
+
+
+/*************************************************************************************************
+
+
+                                         REGULAMENTO
+
+
+*************************************************************************************************/
+
+#tableRules {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+#rulesList {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#rulesList ul {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#rulesList li {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#rulesList {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#tableRules {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#tableRules td,
+th {
+    border: 1px solid black;
+}
+
+#tableRules tr {
+    height: 50px;
+}
+
+#tableRules td,
+th {
+    border: 1px solid black;
+}
+
+#tableRules tr {
+    height: 50px;
+}
+
+#rulesList {
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+#tableRules tr:nth-child(even) {
+    background-color: rgba(110, 162, 193, 0.88);
+}
+
+#tableRules tr:nth-child(odd) {
+     background-color: rgba(173, 200, 230, 1);
+}
+
+.rules h1,
+h2 {
+    text-align: center;
+}
+
+.rules #timeRules {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #233046;
+    text-shadow: 1px 0px 1px #fff, -1px 0px 1px #fff, 0px 1px 1px #fff, 0px 1px 1px #fff;
+}
+
+.atencao {
+    color: red;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+/*************************************************************************************************
+
+
+                                        CONTATO
+
+
+*************************************************************************************************/
+
+#bg {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    display: none;
+}
+
+#bg:target {
+    display: block;
+}
+
+#bg:target~.box {
+    top: 150px;
+    transition: all .3s;
+    transition-delay: 0.2;
+}
+
+.box {
+    width: 720px;
+    height: 405px;
+    position: absolute;
+    margin-left: -360px;
+    /*metade da largura da div*/
+    left: 50%;
+    top: -800px;
+    background: white;
+}
+
+.box img {
+    width: 150px;
+    position: absolute;
+    height: 150px;
+    left: 0;
+    top: 0;
+}
+
+#close {
+    color: #fff;
+    font-family: "ARIAL";
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    right: 0;
+}
+
+#close:hover {
+    opacity: .6;
+}
+
+.RetornoForm {
+    width: 70%;
+    /*border: 1px solid black;*/
+    margin: 50px auto;
+    text-align: center;
+}
+
+#titleModal {
+    font-size: 30px;
+}
+
+.RetornoForm p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#contatoDados {
+    width: 40%;
+    float: right;
+    margin-right: 3%;
+    padding-top: 10px;
+}
+
+.informacoesContato {
+    width: 100%;
+    /*background: #233046;*/
+    /*color: white;*/
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border: 2px dashed #233046;
+}
+
+#contatoDados h1,
+#contatoForm h1 {
+    padding-bottom: 10px;
+}
+
+#contatoForm {
+    width: 40%;
+    float: left;
+    padding-bottom: 10px;
+    margin-left: 3%;
+    padding-top: 10px;
+}
+
+.contatoCaixa {
+    margin-bottom: 1em;
+}
+
+.contatoCaixa label {
+    display: block;
+}
+
+.contatoCaixa input,
+.contatoCaixa textarea {
+    border-bottom: 2px solid #233046;
+    width: 98%;
+    padding: 1%;
+}
+
+.contatoCaixa input:focus,
+.contatoCaixa textarea:focus {
+    border-bottom: 5px solid #123;
+    background: #eee;
+}
+
+.alinharBotao {
+    text-align: right;
+}
+
+.botao {
+    background: #233046;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    padding: 10px;
+    border: 0px;
+}
+
+#btnReserva {
+    background: orange;
+}
+
+.reserva {
+    display: block;
+    margin-top: 50px;
+}
+
+.contato {
+    margin-top: 100px;
+    display: none;
+}
+
+.tituloContato {
+    text-align: center;
+}
+
+
+/*************************************************************************************************
+
+
+                                         RESERVA
+
+
+*************************************************************************************************/
+
+#reservaDados {
+    width: 40%;
+    float: right;
+    margin-right: 3%;
+    padding-top: 10px;
+}
+
+#contatoDados h1 {
+    padding-bottom: 10px;
+}
+
+#contatoForm {
+    width: 40%;
+    float: left;
+    padding-bottom: 10px;
+    margin-left: 3%;
+    padding-top: 10px;
+}
+
+#contatoForm h1 {
+    padding-bottom: 10px;
+}
+
+.contatoCaixa {
+    margin-bottom: 1em;
+}
+
+.contatoCaixa label {
+    display: block;
+}
+
+.contatoCaixa input,
+.contatoCaixa textarea {
+    border: 0px;
+    border-bottom: 2px solid #233046;
+    width: 98%;
+    padding: 1%;
+}
+
+.contatoCaixa input:focus,
+.contatoCaixa textarea:focus {
+    border-bottom: 5px solid #123;
+    background: #eee;
+}
+
+.alinharBotao {
+    text-align: right;
+}
+
+.botao {
+    background: #233046;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    padding: 10px;
+    border: 0px;
+}
+
+#mensagem {
+    border: 2px solid #233046;
+    resize: none;
+}
+
+
+/*************************************************************************************************
+
+
+                                         QUARTO
+
+
+*************************************************************************************************/
+
+#quartoTitulo {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+#quartoTitulo h1 {
+    border-bottom: 1px solid #999;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.quartoFoto {
+    width: 25%;
+    float: left;
+    margin-left: 4.166%;
+    margin-right: 4.166%;
+    text-align: center;
+        margin-bottom: 100px;
+}
+
+.quartoFoto img {
+    width: 100%;
+    box-shadow: 10px 10px 5px #888888;
+    border: 2px solid black;
+}
+
+.titleCategory {
+    padding: 50px 0;
+    font-size: 1.5em;
+    color: #233046;
+    text-shadow: 1px 0px 1px #fff, -1px 0px 1px #fff, 0px 1px 1px #fff, 0px 1px 1px #fff;
+}
+
+.quartoFoto img:hover {
+    -webkit-filter: blur(0px) opacity(1) grayscale(0) drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.7));
+    transition: all 1s;
+}
+
+
+/*************************************************************************************************
+
+
+                                         Galeria
+
+
+*************************************************************************************************/
+
+.galerias {
+    width: 100%;
+    text-align: center;
+}
+
+.CaixaGaleria {
+    width: 400px;
+    height: 380px;
+    display: inline-block;
+    /*border: 1px solid black;*/
+    margin: 20px;
+    background-color: white;
+}
+
+.galeriaSuperior,
+.galeriaInferior {
+    width: 100%;
+}
+
+.CaixaGaleria img {
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.CaixaGaleria h3 {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.CaixaGaleria img:hover {
+    -webkit-filter: blur(0px) opacity(1) grayscale(0) drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.7));
+    transition: all 1s;
+}
+
+
+/*************************************************************************************************
+
+
+                                         QUARTO DETALHES
+
+
+*************************************************************************************************/
+
+#produtoFinalFoto {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+#produtoFinalFoto img {
+    width: 90%;
+    margin: auto;
+}
+
+#produtoFinalTexto {
+    width: 60%;
+    float: right;
+}
+
+#produtoFinalTexto h1 {
+    background: #233046;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+#produtoFinalTexto p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+#outrosProdutos h1 {
+    background: #233046;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.prudutosOutrosFotos {
+    width: 12%;
+    float: left;
+    margin-left: 0.5%;
+}
+
+
+/********************************************************************************************************************************************
+*********************************************************************************************************************************************
+                                                              Breakpoint 1024
+*********************************************************************************************************************************************
+********************************************************************************************************************************************/
+
+@media (min-width: 1119px) {
+    body{
+        /*background: green;*/
+    }
+   
+        #titleOndaDupla {
+    margin-top: -95px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 0px 1px #233046, -2px 0px 1px #233046, 0px 2px 1px #233046, 0px -2px 1px #233046;
+    margin-bottom: 70px;
+    position: relative;
+            padding-bottom: 40px;
+            
+    
+}
+}
+
+
+/********************************************************************************************************************************************
+*********************************************************************************************************************************************
+                                                              Breakpoint 768
+*********************************************************************************************************************************************
+********************************************************************************************************************************************/
+
+@media (max-width: 768px) {
+    /* formataçao maxima ate 768px*/
+    body {
+        /*background: red;*/
+    }
+    
+    
+    #titleOndaDupla {
+    margin-top: -90px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 0px 1px #233046, -2px 0px 1px #233046, 0px 2px 1px #233046, 0px -2px 1px #233046;
+    margin-bottom: 70px;
+    position: relative;    
+}
+    
+    .bannerOndaHome{
+    background-image: url(../img/bannerOnda2.png);
+    height: 150px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom:20px; 
+}
+    
+/*************************************************************************************************
+
+
+                                         GALERIAS
+
+
+*************************************************************************************************/
+
+
+
+    .galeriaFoto{
+		width: 30%;
+		margin: 1.666%;	
+	}
+
+    #box{
+    width: 90%;
+    height: 400px;
+    margin-top: 150px;
+
+}
+    
+ 
+
+    /*************************************************************************************************
+
+
+                                         MENU
+
+
+*************************************************************************************************/
+    #logoMobile,
+    #botaoMenu {
+        display: none;
+    }
+    #menuTop {
+        text-align: center;
+    }
+    #menuTop ul li {
+        width: 25%;
+        display: inline;
+    }
+    header {
+        width: 100%;
+        height: 80px;
+        background: #233046;
+        position: fixed;
+    }
+    #menuE {
+        float: left;
+        width: 45%;
+        text-align: right;
+        padding-top: 30px;
+    }
+    #logo {
+        text-align: center;
+        float: left;
+        width: 10%;
+    }
+    #logo img {
+        width: 80px;
+    }
+    #menuD {
+        float: right;
+        width: 45%;
+        text-align: left;
+        padding-top: 30px;
+    }
+    #menuE ul li,
+    #menuD ul li {
+        display: inline;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    #menuE ul li a,
+    #menuD ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    #menuRegulamento {
+        padding-left: 7px;
+    }
+    #menuSobre {
+        padding-right: 10px;
+        padding-left: 8%;
+        margin-left: 20px;
+    }
+    #bannerHome {
+        display: none;
+        
+    }
+    /*************************************************************************************************
+
+
+                                         RODAPE
+
+
+*************************************************************************************************/
+    #enderecoRodape {
+        float: none;
+        padding: 50px 30px;
+        text-align: center;
+    }
+    /*************************************************************************************************
+
+
+                                         HOME
+
+
+*************************************************************************************************/
+    .artigoHome {
+        width: 40%;
+        margin: 5%;
+        float: left;
+    }
+    .artigoHome img {
+        width: 100%;
+    }
+    .artigoHome img:hover {
+        opacity: 0.8;
+        width: 100%;
+    }
+    
+    #titleHome{
+        margin-top: 100px;
+    }
+
+    #bookingPrice{
+        width: 85%;
+    }
+  
+    /*************************************************************************************************
+
+
+                                         QUARTO 
+
+
+*************************************************************************************************/
+    #quartoTitulo {
+        width: 90%;
+    }
+    .quartoFoto {
+        width: 80%;
+        float: none;
+        margin: auto;
+
+    }
+    .quartoFoto img {
+        width: 60%;
+    }
+    /*************************************************************************************************
+
+
+                                         QUARTO DETALHES
+
+
+*************************************************************************************************/
+    #produtoFinalFoto {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    #produtoFinalFoto img {
+        width: 70%;
+        margin: auto;
+    }
+    #produtoFinalTexto {
+        width: 100%;
+        margin: auto;
+        float: none;
+    }
+    .prudutosOutrosFotos {
+        width: 30%;
+        margin: 1.666%;
+    }
+    /*************************************************************************************************
+
+
+                                         REGULAMENTOS
+
+
+*************************************************************************************************/
+    #tableRules {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    #rulesList {
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    #rulesList ul{
+        width: 80%;
+    }
+    /*************************************************************************************************
+
+
+                                         CONTATO
+
+
+*************************************************************************************************/
+    #contatoDados {
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #contatoForm {
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #contatoForm h1 {
+        text-align: center;
+    }
+
+    #bg{
+        width: 100%;
+    }
+
+    .box img{
+        display: none;
+    }
+
+
+
+
+    #produtoFinalFoto{
+        margin: 40px 0;
+    }
+
+
+}
+
+
+
+
+
+
+
+/********************************************************************************************************************************************
+*********************************************************************************************************************************************
+                                                           Breakpoint 500
+*********************************************************************************************************************************************
+********************************************************************************************************************************************/
+
+@media (max-width: 500px)
+/* formataçao maxima ate 500px*/
+
+{
+    body {
+        /*background: orange;*/
+        min-width: 365px;
+    }
+    .main {
+        padding: 10px 0% 50px 0%;
+        /*position: absolute;*/
+        width: 100%;
+        /*height: 1000px;*/
+    }
+    
+    
+
+    .bannerOndaHome{
+    background-image: url(../img/bannerOnda2.png);
+    height: 150px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 36%;
+    margin-bottom:20px; 
+}
+    
+    .bannerOnda {
+      height: 150px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 36%;
+    margin-bottom:20px; 
+}
+    
+    
+    .galeriaFoto{
+		width: 45%;
+		margin: 80px 2.5% 0 2.5%;	
+        
+	}
+    /*************************************************************************************************
+
+
+                                         HOME
+
+
+*************************************************************************************************/
+    #homeContainer {
+        margin-top: 80px;
+    }
+    .artigoHome {
+        text-align: center;
+        width: 85%;
+        margin: 5%;
+        float: none;
+    }
+    .artigoHome img {
+        text-align: center;
+        width: 85%;
+    }
+    .artigoHome img:hover {
+        text-align: center;
+        opacity: 0.8;
+        width: 85%;
+    }
+    #bannerHome {
+        display: none;
+    }
+    /*************************************************************************************************
+
+
+                                         MENU
+
+
+*************************************************************************************************/
+    #logo {
+        display: none;
+    }
+    /*************************************************************************************************
+
+
+                                         MENU RESPONSIVO
+
+
+*************************************************************************************************/
+    header {
+        width: 100%;
+        height: 0px;
+        background: #233046;
+        position: absolute;
+        min-width: 365px;
+    }
+    #logoMobile {
+        display: block;
+        width: 100%;
+        background: #fff;
+    }
+    #logoMobile img {
+        width: 30%;
+        margin: auto;
+        padding: 0 35% 0 35%;
+    }
+    #menuTop {
+        transition: all 1s;
+    }
+    #botaoMenu {
+        display: block;
+        background: #233046;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+    #menuE {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .active {
+        opacity: 1;
+    }
+    .inactive {
+        opacity: 0;
+        z-index: 0;
+        display: none;
+    }
+    #logo img {
+        width: 80px;
+    }
+    #menuD {
+        float: none;
+        width: 100%;
+        text-align: left;
+        padding-top: 0px;
+    }
+    #menuE ul li,
+    #menuD ul li {
+        text-align: center;
+        display: block;
+        background: rgba(35, 48, 70, .95);
+        width: 100%;
+        border-bottom: 1px dashed #fff;
+        margin: auto;
+        padding: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #menuE ul li a,
+    #menuD ul li a {
+        text-decoration: none;
+        color: white;
+        width: 100%;
+    }
+    #menuSobre {
+        margin-left: 0px;
+    }
+    /*************************************************************************************************
+
+
+                                        HOME
+
+
+*************************************************************************************************/
+    .textoHome {
+        text-align: center;
+        margin: center;
+      
+    }
+    .textoHome p {
+        text-align: justify;
+
+    }
+    /*************************************************************************************************
+
+
+                                         QUARTO
+
+
+*************************************************************************************************/
+    .quartoFoto {
+        width: 80%;
+        float: none;
+        margin: 1em auto;
+    }
+    .quartoFoto img {
+        width: 100%;
+    }
+    /*************************************************************************************************
+
+
+                                         REGULAMENTO
+
+
+*************************************************************************************************/
+    #tableRules {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    #rulesList {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    /*************************************************************************************************
+
+
+                                         CONTATO
+
+
+*************************************************************************************************/
+    #contatoDados {
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #contatoForm {
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #contatoForm h1 {
+        text-align: center;
+    }
+    
+    
+    /*************************************************************************************************
+
+
+                                         Galeria
+
+
+*************************************************************************************************/
+
+.galerias {
+    width: 100%;
+    text-align: center;
+}
+
+.CaixaGaleria {
+    width: 100%;
+    height: 380px;
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+.galeriaSuperior,
+.galeriaInferior {
+    width: 100%;
+}
+
+.CaixaGaleria img {
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+.CaixaGaleria img:hover {
+    -webkit-filter: blur(0px) opacity(1) grayscale(0) drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.7));
+    transition: all 1s;
+}
+
+
+
+
+
+#box{
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    /****************AREA TESTES*****************/
+    #bandeiras ul li img {
+        display: none;
+    }
+    #bandeiraMobi {
+        background: red;
+        display: inline;
+    }
+    #bandeiraMobi li img {
+        display: block;
+        margin: auto;
+        width: 30px;
+        display: inline;
+    }
+
+    #tableRules{
+        width: 85%;
+    }
+
+    #bookingPrice{
+        width: 85%;
+    }
+
+    .tablePrices{
+        padding-top: 0;
+    }
+
+    #titlePages{
+        margin-bottom: 0;
+    }
+    .rules{
+        padding-top: 50px;
+    }
+
+    .galerias{
+        padding-top: 100px;
+    }
+
+    #radios{
+        
+        padding-top: 80px;
+        z-index: 99;
+    }
+
+    .informacoesContato{
+
+        margin-bottom: 50px;
+    }
+
+    #bg, .box{
+        width: 100%;
+    }
+
+    .box{
+        margin-left: -184px;
+    }
+
+
+    #produtoFinalFoto{
+        padding-top: 40px;
+    }
+    /**************************/
+}

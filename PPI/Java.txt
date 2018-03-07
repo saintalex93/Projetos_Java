@@ -1,0 +1,38 @@
+Criar Booleando Ativo Inativo Hospedes
+Validar máximo de caracteres por campo.
+Filtrar só por clientes ativos.
+Filtrar só por clientes inativos.
+Bloquear campos para alterar.
+Mudar / ocultar botão alterar.
+Validar Preenchimento Objeto
+
+
+Criar tabela com o TArifário e Relacionar com o Apartamento.
+Não pode criar apartamento, tem apenas 20.
+
+
+ATUALIZAR MODELAGEM E CRIAR DICIONARIO DE DADOS
+
+
+
+FECHAR CONEXÕES
+
+
+
+
+          NomeCategoria = (String) cmbCategoria.getSelectedItem().toString().substring(53).replace("</span></html>", "");
+
+        if (cmbCategoria.getSelectedIndex() != 0) {
+
+           // HabilitaCampos();
+
+            connCombo.executaSql("select * from TipoDespesa where NomeDespesa = '" + NomeCategoria + "'");
+            try {
+                connCombo.rs.first();
+                 codCategoria = Integer.parseInt(connCombo.rs.getString("codTipoDespesa"));
+                 
+                 System.out.println(codCategoria);
+            } catch (SQLException ex) {
+                Logger.getLogger(frm_Apartamento.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
