@@ -335,7 +335,7 @@ values
 ('Gerente'),
 ('Atendente'),
 ('Entregador'),
-('Operador');
+('Operador'); 
  
 -- ---------------------------------------
 insert into Funcionario
@@ -363,6 +363,7 @@ values
 ('Carlos Silva','475.427.106-85','Rua Juba da Jujuba',null,420,'59579-14','SP','São Paulo','Vila Mariana','carlos_silva@gmail.com','(11)4198-8274','(11)9-9658-9774','Carlos','123', 4),
 ('Alex Santos','399.305.868-22','Rua Pindamonhangaba',null,666,'023654-14','SP','São Paulo','Vila Tupiniquim','alexsantos@gmail.com','(11)4578-8274','(11)9-9852-9774','Alex','123', 1),
 ('Toninho Abreu','128.589.519-87','Rua das Dalágaras', null,159,'12598-11','SP','São Paulo','Vila Vira','tony@gmail.com','(11)4529-4196','(11)9-7988-4895','Tony','123', 2)
+;
 
 insert into Insumo
 (
