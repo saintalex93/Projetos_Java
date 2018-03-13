@@ -22,11 +22,20 @@ public class ConectaBanco {
     private Connection con;
     public Statement stm;
     public ResultSet rs;
-    private String driver = "net.sourceforge.jtds.jdbc.Driver";// responsavél por identificar o serviço de banco de dados
-    String usuario = "sa", senha = "123", url = "jdbc:jtds:sqlserver://SANTOSDESKTOP:1433/Pizzaria";
+    
+//    Driver SQL SERVER
+//    private String driver = "net.sourceforge.jtds.jdbc.Driver";// responsavél por identificar o serviço de banco de dados
+//    String usuario = "sa", senha = "123", url = "jdbc:jtds:sqlserver://SANTOSDESKTOP:1433/Pizzaria";
+//
+//    public ConectaBanco() throws Exception {
+//        Class.forName("net.sourceforge.jtds.jdbc.Driver");
+//        con = DriverManager.getConnection(url, usuario, senha);
+    
+    private String driver = "com.mysql.jdbc.Driver";// responsavél por identificar o serviço de banco de dados
+    String usuario = "root", senha = "", url = "jdbc:mysql://localhost:3306/Pizzaria";
 
     public ConectaBanco() throws Exception {
-        Class.forName("net.sourceforge.jtds.jdbc.Driver");
+        Class.forName("com.mysql.jdbc.Driver");
         con = DriverManager.getConnection(url, usuario, senha);
 //          String usuario = "sa", senha = "123456", url = "jdbc:jtds:sqlserver://10.67.74.38:1433/Pizzaria";
 //        Class.forName("net.sourceforge.jtds.jdbc.Driver");
